@@ -238,7 +238,7 @@ function Update()
         level.DrawText('BOUNCE',   pos.Clone().AddXY(0,-b), 33*p,'center',2,'#000',c1);
         level.DrawText('BACK',     pos.Clone().AddXY(0,b+1.2), 33*p,'center',2,'#000',c1);
         if (levelFrame==200)
-            level.DrawText('by Adi Yenuubarii',   new Vector2(8,9.5), 14);
+            level.DrawText('by K',   new Vector2(8,9.5), 14);
     }
 }
 
